@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+.venv/
+venv/
+
+# Local kaula state (never commit captured prompts/edits)
+.kaula/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# OS / editor
+.DS_Store
+*.swp
